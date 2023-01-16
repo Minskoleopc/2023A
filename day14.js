@@ -113,8 +113,66 @@ console.log(q10)
 console.log(typeof q10)
 
 
+// program 1
+//                0    1    2    3
+let birthYear = [1989,1990,1991,1992]
+let ages = []  // [34,33,32,31]
+// [34,33,32,31]
 
+for(let i = 0 ; i < birthYear.length ; i++){
+    //console.log(i)
+    //console.log(birthYear[i])
+    //console.log(2023 - birthYear[i])
+    let age = 2023 - birthYear[i] // 34
+    ages.push(age)
 
+}
+console.log(ages)
+
+// program 2
+
+let age  = [11,22,33,44,22,33,44,55,66,77]
+// [44,55,66,77]
+let above40 = [] // [44,44,55,66,77]
+let below40 = []
+
+for(let i = 0 ; i < age.length ; i++){
+    //console.log(i)
+    //console.log(age[i])
+    if(age[i] > 40){
+        above40.push(age[i]) 
+    }
+    else {
+        below40.push(age[i])
+    }
+}
+console.log(above40)
+console.log(below40)
+
+// program3 
+
+let addition = [11,22,33] // 66
+let total = 0
+
+for(let i = 0 ; i < addition .length ; i++){
+    // console.log(i)
+    // console.log(addition[i])
+    total = total + addition[i]
+    //       0    +  11 ========> 11
+    //       11   +  22 ========> 33
+    //       33   +  33 ========> 66
+}
+console.log(total)
+
+// program 4
+
+let namesA = ["chinmay","sarika","sameer","satish","sanket"]
+
+for(let i = 0 ; i < namesA.length ; i++){
+    // console.log(i)
+    // console.log(namesA[i])
+    console.log("welcome "+ namesA[i])
+}
 
 
 
