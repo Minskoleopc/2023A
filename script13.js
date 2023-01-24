@@ -85,13 +85,18 @@ let q2 = fruits.push("papaya")
 console.log(fruits)
 console.log(q2) 
 
-
 // unshift()
 // action - add the element at start
 // return new length of array
 let q3 = fruits.unshift("berry")
 console.log(fruits)
 console.log(q3) 
+
+//--------------------------------------------------------
+
+
+
+
 
 
 

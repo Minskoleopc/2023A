@@ -39,7 +39,6 @@ console.log(numThree % numbFour)
 // DRY - donot repeat yourself 
 // 1- pair   - 5 lines code
 // 10 -pair  - 50 lines code
-
 // Functions
 
 function Calculator(x,y){

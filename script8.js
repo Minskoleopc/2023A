@@ -58,8 +58,10 @@ for(let i = 10 ; i >= 5 ; i--){ // 9 // 8
 }
 
 // continue -- immediately continue loop to next iteration
+for(let i = 1 ; i <= 5 ; i++){ // 2 // 3 // 4 // 5 // 6
+    if(i == 3){
+        continue
+    }
+    console.log(i) // 1 // 2 // 4 // 5
 
-
-for(let i = 1 ; i <= 5 ; i++){
-    console.log(i)
 }

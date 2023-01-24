@@ -153,6 +153,22 @@ let numT = 10
 let a1 = 10
 let a2 = 5
 
+// if(a1 > a2){
+//     console.log('a1 is greater')
+// }
+// else {
+//     console.log('a2 is greater')
+// }
+
+// a1 > a2 ? console.log('a1 is greater'):console.log('a2 is greater')
+
+
+
+
+
+
+
+
 
 
 

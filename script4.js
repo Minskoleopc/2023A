@@ -77,15 +77,15 @@ let numT = 11
 //     console.log('20 % discount')
 // }
 
-if(numT > 0 && numT <= 5){
-    console.log('5 % discount')
-}
-else if(numT > 5 && numT <= 10){
-    console.log('10 % discount')
-}
-else if(numT > 10){
-    console.log('20 % discount')
-}
+// if(numT > 0 && numT <= 5){
+//     console.log('5 % discount')
+// }
+// else if(numT > 5 && numT <= 10){
+//     console.log('10 % discount')
+// }
+// else if(numT > 10){
+//     console.log('20 % discount')
+// }
 
 
 
