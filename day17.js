@@ -136,3 +136,39 @@ console.log(q17)
 let fruits = ["apple","mango","banana","grapes"]
 let q18= fruits.at(2)
 console.log(q18)
+
+// slice()
+
+//               0         1         2         3        4          5       6         
+let cities = ["wardha","nagpur","bangalore","delhi","amravati","chennai","delhi"]
+//               -7         -6      -5        -4        -3          -2        -1        
+//cities.slice(start,endposition)
+let q111 = cities.slice(3)
+console.log(q111)
+console.log(cities.slice(1,5))
+console.log(cities.slice(0,4))
+console.log(cities.slice(-4))
+console.log(cities.slice(-7,-4))
+console.log(cities.slice(1,-4))
+console.log(cities.slice(-7,5))
+console.log(cities.slice(-1,4))
+// splice()
+//                  0          1       2        3
+let vegetables = ["tomato","potato","brinjal","onion"]
+// vegetables.pop()
+// vegetables.shift()
+console.log(vegetables)
+//vegetables.splice(startIndex,numberOfElementsTobeDeleted)
+// let q333 = vegetables.splice(2,1)
+// console.log(vegetables)
+// console.log(q333)
+//vegetables.splice(startIndex,numberOfElementsTobeDeleted,repl,repl)
+vegetables.splice(1,2,"cabbage","cauliflower","carrot")
+console.log(vegetables)
+
+// fill()
+//           0  1  2   3  4  5 6  
+let marks = [22,33,44,55,66,77,88]
+//let q444 =  marks.fill(true,1)
+let q5555 =  marks.fill(true,1,4)
+console.log(q5555)
