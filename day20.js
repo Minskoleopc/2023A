@@ -100,6 +100,11 @@ console.log(city2.slice(-1,-4))
 // console.log(q3aa.length)
 
 
+let jkl = "I am learning js"
+let e = jkl.replace('js','python')
+console.log(e)
+
+
 
 
 
