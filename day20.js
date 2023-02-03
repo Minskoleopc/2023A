@@ -99,10 +99,11 @@ console.log(city2.slice(-1,-4))
 // let q3aa = city9.trimEnd()
 // console.log(q3aa.length)
 
+// let jkl = "I am learning js"
+// let e = jkl.replace('js','python')
+// console.log(e)
 
-let jkl = "I am learning js"
-let e = jkl.replace('js','python')
-console.log(e)
+
 
 
 
