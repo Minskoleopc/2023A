@@ -98,9 +98,7 @@ console.log(setC.values())
 
 //console.log(setC.entries())
 // // example
-// for(let [{firstName},{lastName}] of setC.entries()){
-//     console.log(firstName,lastName)
-// }
+// 
 
 
 

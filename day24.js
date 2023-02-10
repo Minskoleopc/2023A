@@ -89,7 +89,6 @@ mapB.set(true,"can drive")
 mapB.set("name","chinmay deshpande")
 console.log(mapB)
 
-
 let mapC = new Map([
     [1,'tester'],
     [true ,"can drive"],
