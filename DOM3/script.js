@@ -19,12 +19,9 @@ console.log(className)
 // //tagName[name = "hello"]
 // let commonF = document.querySelector('h2[name = "nm"]')
 // console.log(commonF)
-
 //  <h3 id = "a" class = "b" name ="c">headThree</h3>
 
-
 // tagName
-
 let a = document.querySelector('h3')
 // className
 let b = document.querySelector('.b')
