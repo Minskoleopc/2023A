@@ -20,7 +20,7 @@ buttonA.addEventListener('click',function(){
     // reading the value from inputText
     let litext = listText.value
     // Creating the element
-    let newLi = document.createElement('li')  // <li></li>
+    let newLi = document.createElement('li')  // <li></li>.
     // Add text to the element
     newLi.textContent = litext  // <li>Papaya</li>
     // Append the newly created element to ul list
