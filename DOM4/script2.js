@@ -6,3 +6,4 @@ console.log(headOne)
 buttonA.addEventListener('click',function(){
     headOne.style.color = "green";
 })
+
