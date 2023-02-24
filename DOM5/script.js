@@ -8,11 +8,11 @@ console.log(headingOne)
 console.log(inputText)
 console.log(button)
 
-// button.addEventListener('click',function(){
-//     let colorText = inputText.value // red
-//     headingOne.style.color = colorText
-//     inputText.value = ""
-// })
+button.addEventListener('click',function(){
+    let colorText = inputText.value // red
+    headingOne.style.color = colorText
+    inputText.value = ""
+})
 
 // program 2
 // document.querySelector('button').addEventListener('click',function(){
