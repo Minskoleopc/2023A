@@ -19,7 +19,6 @@ ulList.addEventListener('click', function (e) {
         }
 
         else if (e.target.className == "up") {
-            
             let li = e.target.parentElement  // mango
             let prevLi = li.previousElementSibling // apple
             if(prevLi){
