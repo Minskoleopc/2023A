@@ -124,6 +124,9 @@ class PersonD {
     set rollN(rn){
         this.rollNo = rn
     }
+    get rollN(){
+        return this.rollNo
+    }
 
 }
 
@@ -131,7 +134,8 @@ let vijeet = new PersonD()
 vijeet.rollN = 99
 vijeet.lastN = "dani"
 vijeet.Age = 44
-vijeet.rollN = 55
+vijeet.firstN = 55
 
+console.timeLog(vijeet.rollN)
 
 
