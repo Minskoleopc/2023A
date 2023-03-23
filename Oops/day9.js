@@ -71,3 +71,20 @@ console.log(chinmay.withdrawl(500))
 console.log(chinmay.lastFiveTransaction())
 console.log(chinmay.totalDeposit())
 console.log(chinmay.totalWithdrawl())
+
+// tricky ----
+
+let firstName = "chinmay"
+let lastName = "deshpande"
+
+console.log("My firstname is "+firstName+" lastName is "+lastName)
+console.log(`My firstName is ${firstName} and my lastName is ${lastName}`)
+console.log(`${67*7}`)
+console.log(`${chinmay.totalDeposit()}`)
+
+
+
+
+
+
+
