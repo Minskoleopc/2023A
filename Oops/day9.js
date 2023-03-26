@@ -79,7 +79,7 @@ let lastName = "deshpande"
 
 console.log("My firstname is "+firstName+" lastName is "+lastName)
 console.log(`My firstName is ${firstName} and my lastName is ${lastName}`)
-console.log(`${67*7}`)
+console.log(`${firstName}`)
 console.log(`${chinmay.totalDeposit()}`)
 
 

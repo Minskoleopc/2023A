@@ -126,12 +126,10 @@ class Son extends Father {
 }
 
 let chinmaya = new Son("manohar","deshpande","shirish","chinmay,")
-
 console.log(chinmaya.firstName)
 console.log(chinmaya.lastName)
 console.log(chinmaya.sname)
 console.log(chinmaya.ffirstName)
-
 
 chinmaya.displayFName()
 chinmaya.displayGName()

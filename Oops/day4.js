@@ -91,7 +91,6 @@ let obj = {
     }
 }
 
-
 let sarika2 = Object.create(obj)
 console.log(sarika2)
 sarika2.init("poorva","vyas")
