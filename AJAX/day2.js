@@ -154,8 +154,6 @@
 // Prmoise.race()
 // Promise.allSettled()
 
-
-
 function createUser(){
     return  new Promise(function(resolve,reject){
         setTimeout(function(){
@@ -163,7 +161,6 @@ function createUser(){
         },3000)
     })
 }
-
 function getId(){
     return  new Promise(function(resolve,reject){
         setTimeout(function(){
@@ -171,7 +168,6 @@ function getId(){
         },2000)
     })
 }
-
 function getInfoById(){
     return  new Promise(function(resolve,reject){
         setTimeout(function(){
@@ -179,8 +175,6 @@ function getInfoById(){
         },1000)
     })
 }
-
-
 createUser()
 .then(function(a){
     console.log(a)
@@ -199,6 +193,7 @@ createUser()
 .finally(function(){
     console.log('finally')
 })
+
 
 
 
