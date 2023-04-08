@@ -1,4 +1,15 @@
-// let dataSet = {
+
+// element create 
+// element retrive
+// element add
+// element delete
+
+
+// element attribute retrive
+// element attribute update
+// element attribute delete 
+// element attribute add
+// let ar = {
 //     "page": 2,
 //     "per_page": 6,
 //     "total": 12,
@@ -53,37 +64,46 @@
 //     }
 // }
 
-
-
-// dataSet.data.forEach(function(data){
-//     //console.log(data)
-//     document.write(`<h1>${data.email}<h1>`)
-//     document.write(`<h1>${data.first_name}<h1>`)
-//     document.write(`<h1>${data.last_name}<h1>`)
-//     document.write(`<h1>${data.id}<h1>`)
-//     document.write(`<img src = ${data.avatar}>`)
+// ar.data.forEach(function(el){
+//     document.write(`<h1>${el.first_name}</h1>`)
+//     document.write(`<h1>${el.last_name}</h1>`)
+//     document.write(`<h1>${el.email}</h1>`)
+//     document.write(`<h1>${el.id}</h1>`)
+//     document.write(`<img src = ${el.avatar}>`)
 // })
 
 
-let userSButton = document.querySelector('#gu')
+// ar.data.forEach(function(el){
+//     console.log(el.id)
+//     console.log(el.first_name)
+//     console.log(el.last_name)
+//     console.log(el.email)
+//     console.log(el.avatar)
+// })
 
-userSButton.addEventListener('click', function () {
+
+let buttonA = document.querySelector('#one')
+
+buttonA.addEventListener('click', function () {
     fetch('https://reqres.in/api/users?page=2')
         .then(function (response) {
-            console.log(response)
             return response.json()
         })
         .then(function (response) {
-            console.log(response)
-
-            response.data.forEach(data => {
-                document.write(`<h1>${data.email}<h1>`)
-                document.write(`<h1>${data.first_name}<h1>`)
-                document.write(`<h1>${data.last_name}<h1>`)
-                document.write(`<h1>${data.id}<h1>`)
-                document.write(`<img src = ${data.avatar}>`)
+            response.data.forEach(el => {
+                document.write(`<h1>${el.first_name}</h1>`)
+                document.write(`<h1>${el.last_name}</h1>`)
+                document.write(`<h1>${el.email}</h1>`)
+                document.write(`<h1>${el.id}</h1>`)
+                document.write(`<img src = ${el.avatar}>`)
             });
 
         })
 
 })
+
+
+
+
+
+
