@@ -74,9 +74,45 @@ function addition(){
     kl = 90
     console.log(kl) // 90
 }
-console.log(kl) // 900
+console.log(kl) // 9000
 addition()
 console.log(kl) //90
+
+
+// program 7
+
+var kl = 9000
+function addition(){
+    var kl = 90
+    console.log(kl)  // 90
+}
+console.log(kl)   // 9000
+addition()
+console.log(kl)  // 9000
+
+
+let j = 9000
+var k = 10000
+function subtraction(){
+    let j = 90
+    console.log(j) // 90
+    console.log(k) // 10000
+    k = 909090
+    console.log(k) // 0909090
+    {
+        k= 100
+    }
+    {
+        j = 9
+        console.log(j) // 9
+    }
+
+}
+console.log(j) // 9000
+console.log(k) //10000
+subtraction()
+console.log(j) // 9000
+console.log(k) // 100
 
 
 
