@@ -58,11 +58,6 @@ async function info(pageNumber){
 info(2)
 
 
-
-
-
-
-
 //singleUserInfo(2)
 //getUserPageWise(2)
 
