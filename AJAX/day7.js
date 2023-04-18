@@ -50,4 +50,4 @@ getUsersPageWise(1)
         document.write(`<img src = ${el.avatar}>`)
     })
 
-//getUsersPageWise(1)
+getUsersPageWise(1)
